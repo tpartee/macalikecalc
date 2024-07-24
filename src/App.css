@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+/* Layout Styling */
+
+.calc-container { width: 406px; background-color: #454647; border-radius: 16px; border: 1px solid black; display: inline-flex; flex-wrap: wrap; flex-direction: row; }
+.dot-area       { width: 400px; display: flex; flex-direction: row; margin-top: 10px; margin-left: 8px; }
+.dot-base       { width: 20px; height: 20px; border-radius: 10px; margin: 0 6px; }
+.dot-red        { background-color: #ff5f57; }
+.dot-yellow     { background-color: #febc2e; }
+.dot-green      { background-color: #27c840; }
+.display-area   { width: 385px; height: 80px; margin-top: 10px; text-align: right; vertical-align: middle; color: white; font-size: 56px; line-height: 80px; font-family: Arial, Helvetica, sans-serif; }
+
+/* Button Styling */
+
+.button-normal { width: 100px;  height: 80px; color: white; text-align: center; vertical-align: middle; font-size: 36px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; line-height: 80px; user-select: none; }
+.button-normal:active { background-color: #999; }
+.button-wide   { width: 202px; height: 80px; color: white; text-align: center; vertical-align: middle; font-size: 36px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; line-height: 80px; user-select: none; }
+.button-wide:active { background-color: #999; }
+
+.button-ac   { background-color: #575859; margin: 0 2px 2px 0; }
+.button-abs  { background-color: #575859; margin: 0 2px 2px 0; }
+.button-mod  { background-color: #575859; margin: 0 2px 2px 0; }
+
+.button-seven { background-color: #737475; margin: 0 2px 2px 0; }
+.button-eight { background-color: #737475; margin: 0 2px 2px 0; }
+.button-nine  { background-color: #737475; margin: 0 2px 2px 0; }
+.button-four  { background-color: #737475; margin: 0 2px 2px 0; }
+.button-five  { background-color: #737475; margin: 0 2px 2px 0; }
+.button-six   { background-color: #737475; margin: 0 2px 2px 0; }
+.button-one   { background-color: #737475; margin: 0 2px 2px 0; }
+.button-two   { background-color: #737475; margin: 0 2px 2px 0; }
+.button-three { background-color: #737475; margin: 0 2px 2px 0; }
+.button-zero  { background-color: #737475; margin: 0 2px   0 0; border-radius: 0 0 0 15px; }
+.button-dot   { background-color: #737475; margin: 0 2px   0 0; }
+
+.button-div { background-color: #ff9f09; margin: 0 0 2px 0; }
+.button-mul { background-color: #ff9f09; margin: 0 0 2px 0; }
+.button-min { background-color: #ff9f09; margin: 0 0 2px 0; }
+.button-pls { background-color: #ff9f09; margin: 0 0 2px 0; }
+.button-equ { background-color: #ff9f09; margin: 0; border-radius: 0 0 15px 0; }
+
